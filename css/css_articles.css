@@ -1,0 +1,365 @@
+.space {
+  margin:2px;
+  padding-left: 5px;
+
+}
+.color_red {
+  color:#bd2130;
+  background-color:#bd2130;
+
+}
+/*ARTICLES CSS*/
+.space_m {}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 2px solid #fff;
+}
+
+ul.bg {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7d3d7f;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  background-color: #ff6347;
+  margin-left: 5px;
+}
+
+li a:hover {
+  background-color: #7f3d51;
+  color: #fff;
+  text-decoration: none;
+  border-left: 2px solid #fff;
+  margin-left: 5px;
+}
+
+.article_active_java {
+  background-color: #008000d9;
+}
+.article_active_html {
+  background-color: #000fff;
+}
+.article_active_css {
+  background-color: #7d3d7f;
+}
+.article_active_gaming {
+  background-color: #bd2130;
+}
+
+.article-head {
+  margin: 0rem .5rem .3rem;
+}
+
+.article-body {
+  margin: 0rem .5rem .5rem;
+  background-color: #ffffff;
+}
+
+/*ARTICLES BOOTSTRAP*/
+.article-head1 {
+  margin: 0rem .5rem .3rem;
+}
+
+.article-head2 {
+  background-color: #bd2130;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  margin: 5px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.article_title {
+  font-family: 'Arvo', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+  /*color: #bd2130;*/
+  color:#008000d9;
+  color: #7c0780;
+  background-color: #ffffff;
+}
+.article_titleSmall{
+  font-family: 'Trebuchet MS', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+  /*color: #bd2130;*/
+  color: #ffffff;
+}
+.article_subTitle{
+  font-family: 'Arvo', serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+  /*color: #bd2130;*/
+  color: #ffffff;
+}
+.article_Text{
+  background-color: #ffffff;/
+}
+.article_contents {
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.2;
+  background-color: #ffffff;
+
+}
+
+.article_content {
+  font-family: 'PT Serif', serif, Georgia, Times, serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  letter-spacing: .5px;
+  background-color: #ffffff;
+}
+
+.article_content p::first-letter {
+  color: red;
+  font-size: 150%;
+}
+.article_after {
+  font-family: 'Arvo', serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+
+  color: #bd2130;
+}
+.article_footer {
+  font-family: 'PT Serif', serif, Georgia, Times, serif;
+  font-size: 1rem;
+  text-align: right;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  letter-spacing: .5px;
+  /*background-color: #7d3d7f6e;*/
+  background-color: #ffffff;
+  color: #bd2130;
+}
+/* Fourth Wrap */
+
+.wrap {
+  border-top: 1px solid grey;
+  border-top: 2px solid #73AD21;
+  border-top: 2px solid #ff0000;
+  margin: 5px;
+  display: inline-block;
+}
+
+
+.al3 {
+  text-align: none;
+}
+
+.dis22 {
+  margin-left:200px;
+  margin-top:20px;
+  border-left: 4px solid #ccc;
+  padding-left:5px;
+}
+
+
+/*OTHER TAGS*/
+.bgImg{
+
+}
+/*ARTICLE BANNERS TAGS*/
+.articleBanner img{
+    width: 100%;
+    height: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.centerImgRight{
+  /*border: 3px solid #73AD21;*/
+  border: 3px solid #bd2130;
+  border-radius: 10px;
+  margin: 2%;
+}
+.centerImgLeft{
+  /*border: 3px solid #73AD21;*/
+  border: 3px solid #bd2130;
+  border-radius: 10px;
+  margin: -2%;
+}
+.inlineImgLeft {
+    width: 40%;
+    height: 40%;
+    float: left;
+    clear: both;
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+  .inlineImgRight {
+    width: 40%;
+    height: 40%;
+    float: right;
+    clear: both;
+    margin: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+  }
+.articleImg{
+    width: 100%;
+    height: 100px;
+    margin: 2px,2px,10px,2px;
+    border: 2px solid #08a3fc;
+}
+
+/*ARTICLE USER INFO TAGS*/
+.portraitImg {
+  border: 2px solid #646563;
+  border-radius: 100%;
+  margin: .5rem;
+  float: left;
+  width:100px;
+  height: 100px;
+}
+.portraitImgPress {
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  margin-top: -.8rem;
+  margin-right: 1rem;
+  float: left;
+  width:50px;
+  height: 50px;
+}
+
+.channel_title {
+  font-family: 'Arvo', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+  /*color: #bd2130;*/
+  color:#ffffff;
+    background-color: #866758;
+  background-color: #bd2130;
+
+  margin-bottom: 3px;
+}
+.chanelInfo {
+  margin-left:25%;
+  margin-top:10px;
+  border-left: 4px solid #64A70B;
+  padding-left:5px;
+  background: #ffffffbd;
+}
+
+.channelMore{
+  margin-left:25%;
+  margin-top:10px;
+  border-left: 4px solid #64A70B;
+  padding-left:5px;
+  background: #ffffffbd;
+}
+
+.channelMore:hover {
+  color: #fff;
+  animation: slideChannel 3s;
+  -webkit-animation-name: slideChannel;/* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;/* Safari 4.0 - 8.0 */
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes slideChannel {
+  from {
+    margin-left:30%;
+    margin-top:10px;
+
+  }
+
+  to {
+    margin-left:10%;
+    margin-top:10px;
+  }
+}
+.btnChannel {
+  border: none;
+  background-color: inherit;
+  padding: 7px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {background: #eee;}
+.btnBg {
+  border: none;
+  background-color: #bd2130;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin:10px;
+}
+.btnBg:hover {background: #eee;color: red;}
+
+.btnReadMore {
+  border: none;
+  background-color: #bd2130;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  margin:2px;
+}
+
+.btnReadMore:hover {background: #ffffff;color: #bd2130;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+.default2 {color: white;}
+
+.floatRight{
+  float: right;
+  clear: both;
+}
+
+.def {
+  background-color: #ffffff;
+  border-radius: 10%;
+}
+.def2 {
+  border-radius: 5%;
+}
+a{
+  color: #fff;
+  text-decoration: none !important;
+}

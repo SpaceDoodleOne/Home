@@ -1,0 +1,173 @@
+/*Home CSS*/
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+
+}
+
+.logo_change {
+  position:relative;
+  animation: example0 2.5s infinite alternate;
+  -webkit-animation-name: example0;/* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2.5s;/* Safari 4.0 - 8.0 */
+}
+.logo_changeForOther {
+  position:relative;
+  animation: exampleForOther 2.5s infinite alternate;
+  -webkit-animation-name: exampleForOther;/* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2.5s;/* Safari 4.0 - 8.0 */
+}
+
+.border_change {
+  border: solid 2px #fff;
+  animation: example 3s infinite alternate;
+  -webkit-animation-name: example;/* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;/* Safari 4.0 - 8.0 */
+}
+
+.text_change {
+  color: #fff;
+  animation: example2 3s infinite alternate;
+  -webkit-animation-name: example2;/* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;/* Safari 4.0 - 8.0 */
+}
+
+.text_change_delay_5 {
+  animation-delay: .5s;
+}
+
+.text_change_delay_01 {
+  animation-delay: 1s;
+}
+
+.text_change_delay_015 {
+  animation-delay: 1.5s;
+}
+
+.text_change_delay_02 {
+  animation-delay: 2s;
+}
+
+.bgs {
+  border: solid 2px #fff;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example0 {
+  from {
+    width: 50px;
+    height:50px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  to {
+    width: 60px;
+    height: 60px;
+    -webkit-transform: rotate(380deg);
+    transform: rotate(380deg);
+  }
+}
+@-webkit-keyframes exampleForOther {
+  from {
+    width: 50px;
+    height:50px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  to {
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(380deg);
+    transform: rotate(380deg);
+  }
+}
+
+@-webkit-keyframes slideChannel {
+  from {
+    margin-left:160px;
+    margin-top:10px;
+
+  }
+
+  to {
+    margin-left:50px;
+    margin-top:10px;
+  }
+}
+@-webkit-keyframes example {
+  from {
+    border-color: #ea2c86;
+  }
+
+  to {
+    border-color: yellow;
+  }
+}
+
+@-webkit-keyframes example2 {
+  from {
+    color: #ea2c86;
+  }
+
+  to {
+    color: yellow;
+  }
+}
+
+@-webkit-keyframes example3 {
+  from {
+    color: red;
+  }
+
+  to {
+    color: grey;
+  }
+}
+
+/* Standard syntax */
+@keyframes example0 {
+  from {
+    width: 50px;
+    height:50px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+
+  to {
+    width: 60px;
+    height:60px;
+    -webkit-transform: rotate(380deg);
+    transform: rotate(380deg);
+  }
+}
+@keyframes example {
+  from {
+    border-color: #ea2c86;
+  }
+
+  to {
+    border-color: yellow;
+  }
+}
+@keyframes example2 {
+  from {
+    color: #ea2c86;
+  }
+
+  to {
+    color: yellow;
+  }
+}
+
+@keyframes example3 {
+  from {
+    color: red;
+  }
+
+  to {
+    color: grey;
+  }
+}
