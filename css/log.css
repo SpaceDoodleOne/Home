@@ -1,19 +1,19 @@
 .login_panel {
-  background-color: #ffffff;
+  background-color: #f59e3d;
   color: #000000;
-  height: 50%;
+  height: 44%;
   width: 40%;
-  z-index: 2;
+  z-index: 1;
   box-shadow: 0 0 15px 9px #00000096;
   margin: auto;
-  padding: 10px;
-  position: relative;
-  left: 40px;
-  top: 10px;
+  padding: 5px;
+  position: absolute;
+  left: 60px;
+  top: 190px;
 }
 
 .register_panel {
-  background-color: #ffffff;
+  background-color: #f59e3d;
   color: #000000;
   height: 50%;
   width: 40%;
@@ -21,7 +21,7 @@
   box-shadow: 0 0 15px 9px #00000096;
   margin: auto;
   padding: 10px;
-  position: relative;
-  right: 40px;
-  top:10px;
+  position: absolute;
+  left: 60px;
+  top:190px;
 }
