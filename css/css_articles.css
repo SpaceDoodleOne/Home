@@ -349,7 +349,7 @@ li a:hover {
   font-size: 14px;
   cursor: pointer;
   display: inline-block;
-  margin:2px;
+  margin-right:5%;
 }
 
 .btnReadMore:hover {background: #ffffff;color: #bd2130;}
