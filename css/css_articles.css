@@ -8,6 +8,16 @@
   background-color:#bd2130;
 
 }
+.color_grey {
+  color:#bd2130;
+  background-color:#6c757d;
+
+}
+.color_white {
+  color:#000000;
+  background-color:#ffffff;
+
+}
 /*ARTICLES CSS*/
 .space_m {}
 
@@ -78,6 +88,7 @@ li a:hover {
 
 .article-head2 {
   background-color: #bd2130;
+  background-color: #f31b1e;
   color: #fff;
   border-bottom: 2px solid #fff;
   margin: 5px;
@@ -87,6 +98,7 @@ li a:hover {
 
 .article_title {
   font-family: 'Arvo', serif;
+  font-family: 'avenir-Heavy',arial,sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 2;
@@ -94,6 +106,7 @@ li a:hover {
   /*color: #bd2130;*/
   color:#008000d9;
   color: #7c0780;
+  color: #435073;
   background-color: #ffffff;
 }
 .article_titleSmall{
@@ -189,11 +202,12 @@ li a:hover {
 
 }
 /*ARTICLE BANNERS TAGS*/
-.articleBanner img{
+.article_Banner img{
     width: 100%;
     height: 120%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border: 3px solid #bd2130;
+    border-radius: 10px;
+    margin:2%;
 }
 
 .centerImgRight{
@@ -354,7 +368,7 @@ li a:hover {
 
 .def {
   background-color: #ffffff;
-  border-radius: 10%;
+  border-radius: 2%;
 }
 .def2 {
   border-radius: 5%;
