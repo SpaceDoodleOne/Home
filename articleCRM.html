@@ -26,7 +26,6 @@
   <link rel="stylesheet" href="css/css_articles.css">
 
 
-
 </head>
 
 <body>
@@ -49,91 +48,116 @@
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="index.html">Home </a>
             <a class="nav-item nav-link" href="features.html">Features</a>
-            <a class="nav-item nav-link active" href="#">Challenges<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="articles.html">Articles</a>
+            <a class="nav-item nav-link" href="challenges.html">Challenges</a>
+            <a class="nav-item nav-link active" href="#">Articles <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link disabled" href="#press" tabindex="-1" aria-disabled="true">Press</a>
           </div>
         </div>
       </nav>
 
-
       <div class="row">
         <div class="col-lg-12 ">
           <div class="search-container">
-              <button type="submit"><i class="fa fa-search search" ></i></button>
-              <input type="text" placeholder="Search.." name="search" class="searchWord">
+            <form action="/action_page.php">
+              <button type="submit"><i class="fa fa-search"></i></button>
+              <input type="text" placeholder="Search.." name="search">
 
+            </form>
           </div>
         </div>
       </div>
-
       <!-- Title -->
-
       <div class="row">
         <!--     SIDER-->
         <div class="btn-sm btn-block channel_title ">
-          Board Game...<br />
+          Article...<br />
         </div>
-        <div class="col-lg-6">
+
+        <div class="col-lg-5 ">
           <!-- START SLIDER-->
-          <!--<div class="btn-sm btn-block channel_title ">
-           PRESS<br />
-        </div>-->
 
-          <div class="def">
-            <div class="article-head">
-              <ul>
-                <li><a class="article_activeD:\Development Projects Ideas\Git\Home\challenge.html" href="#news">Board Game</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-12">
-              <div class="article-body space">
-                <div class="article_titleSmall">
-                  <p>Cloud design </p><img src="req/images/portrai.jpg" alt="" class="portraitImgPress floatRight">
-                </div>
-                <div class="article_subTitle color_red">
-                  &nbsp; BY Alice Goldman | MAY 25, 2019
-                </div>
-                <div class="article_content">
-                  <br />
-                  <iframe src="http://192.168.1.30:8080/SudoOne/Sudoku/Controller/test" width="350px" height="600px" scrolling="no">
-                    <p>Your browser does not support iframes.</p>
-                  </iframe>
-                </div>
-                <div class="article_footer">
-                  <button type="button" class="btnReadMore default2"> <strong>&nbsp; <a href="article.html">Read More...</a></strong> </button>
-                </div>
-              </div>
-            </div>
+          <form action="/action_page.php">
+            <fieldset>
+              <legend>Personal information:</legend>
+                Title<br>
+                <input type="text" value="Mickey"><br>
 
-          </div> <!-- -->
+                Author/By:<br>
+                <input type="text" name="lastname" value="Mouse"><br>
+
+                Date:<br>
+                <input type="text" value="Mickey"><br>
+                <br>
+                Publishing Date:<br>
+                <input type="text" value="Mickey"><br>
+                <br>
+
+                <br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+        </div><!-- END SLIDER-->
+        <div class="col-lg-5 ">
+          <!-- START SLIDER-->
+
+          <form action="/action_page.php">
+            <fieldset>
+              <legend>Personal information:</legend>
+                Title<br>
+                <input type="text" value="Mickey"><br>
+
+                Author/By:<br>
+                <input type="text" name="lastname" value="Mouse"><br>
+
+                Date:<br>
+                <input type="text" value="Mickey"><br>
+                <br>
+                Publishing Date:<br>
+                <input type="text" value="Mickey"><br>
+                <br>
+
+                <br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+          </form>
         </div><!-- END SLIDER-->
 
-        <div class="col-lg-6">
-          <!-- START SLIDER-->
-          <!--<div class="btn-sm btn-block channel_title ">
-         PRESS<br />
-      </div>-->
-          <div class="col-lg-12">
-            <div class="wrap">
-              <button type="button" class="btnBg default2 floatRight"><strong>Subscribe</strong></button>
-              <img src="req/images/portrai.jpg" alt="" class="portraitImg">
-              <blockquote class="chanelInfo">
 
-                <p class="btn danger"><strong>EGoldman</strong></p>
-                <p><a href="http://www.cartoonsaloon.ie/">Eric Goldman</a></p>
-                <p>
-                  <em>“Animation and games are creative and technically driven industries and our teams have to be constantly up-skilled in order to compete in this truly global market. Animation Skillnet is excellent in offering innovative,
-                    relevant training"</em>
-                </p>
-              </blockquote>
-              <p><strong class="btn danger">twitter</strong>
-                <strong class="btn danger">facebook</strong>
-                <strong class="btn danger">instagram</strong></p>
-            </div>
-          </div>
+        <!--     SIDER-->
+        <div class="btn-sm btn-block channel_title ">
+          Article...<br />
+        </div>
+
+        <div class="col-lg-12 ">
+          <!-- START SLIDER-->
+          Article/Paragraph:<br>
+          <input type="text" name="lastname" value="Mouse">
+          <br>
+
+          Article/Paragraph:<br>
+          <input type="text" name="lastname" value="Mouse">
+          <br>
+
+          Article/Paragraph:<br>
+          <input type="text" name="lastname" value="Mouse">
+          <br>
+
+          Article/Paragraph:<br>
+          <input type="text" name="lastname" value="Mouse">
+          <br>
+
+          Article/Paragraph:<br>
+          <input type="text" name="lastname" value="Mouse">
+          <br>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
         </div><!-- END SLIDER-->
-      </div> <!-- END ROW -->
+      </div>
+
+
+
+
 
     </div>
   </section>
@@ -153,10 +177,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-
-  <!-- Include JavaScript File Here -->
-  <!--<script type="text/javascript" src="/js/script.js"></script> scriptUpdate-->
-  <script type="text/javascript" src="../js/search.js"></script>
 </body>
 
 </html>
