@@ -23,7 +23,7 @@
   <!-- Home CSS -->
   <link rel="stylesheet" href="css/home.css">
   <!-- log CSS -->
-  <link rel="stylesheet" href="css/log.css">
+  <link rel="stylesheet" href="css/login.css">
 
 </head>
 
@@ -62,8 +62,8 @@
         <div class="col-lg-8">
           <h1>Every once in a while, a new <span class="text_change ">technology</span>, an old <span class="text_change">problem</span>, and a big <span class="text_change">idea</span> turn into an <span class="text_change">innovation</span>.</h1>
           <hr class="border_change">
-          <button type="button" class="btn btn-light btn-lg btn-download bgs" id="login"><i class="fab "></i> Sign up </button>
-          <p class="btn btn-outline-light btn-lg btn-download border_change" id="register"><i class="fab "></i> Browse Popular Projects</p>
+          <button type="button" class="btn btn-light btn-lg btn-download bgs" onclick="document.getElementById('id01').style.display='block'"><i class="fab "></i> Sign up </button>
+          <p class="btn btn-outline-light btn-lg btn-download border_change" ><i class="fab "></i> Browse Popular Projects</p>
         </div>
         <div class="col-lg-4 d-none d-lg-block">
           <img class="title-image" src="req/innovation.png" alt="iphone-mockup">
@@ -72,44 +72,83 @@
 
       </div>
       <!-- Title -->
-      <div class="row ">
-        <div class="login_panel">
-          <div class="login-show">
-            <h2>LOGIN</h2>
-            <div class="form-group">
 
-              <label for="usr"><strong>Name:</strong></label>
-              <input type="text" class="form-control" id="usr" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <label for="pwd"><strong>Password:</strong></label>
-              <input type="password" class="form-control" id="pwd" placeholder="Name">
-            </div>
-            <a href="">Forgot password?</a>
-            <button type="button" class="btn btn-light btn-lg btn-download "> <strong>Login</strong></button>
 
-          </div>
-        </div>
-
-        <div class="register_panel">
-          <div class="register-show">
-            <h2>REGISTER</h2>
-            <div class="form-group">
-              <label for="email"><strong>Email:</strong></label>
-              <input type="text" class="form-control" id="email" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <label for="pwd"><strong>Password:</strong></label>
-              <input type="password" class="form-control" id="pwd" placeholder="Password">&nbsp;
-              <input type="password" class="form-control" id="pwd2" placeholder="Confirm Password">
-            </div>
-            <button type="button" class="btn btn-light btn-lg "> <strong>Register</strong></button>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
+  <div id="id01" class="modal">
 
+    <div class="modal-content animate" >
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="images/img_avatar.png" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+
+        <form  action="http://localhost:8080/SudoOne/Sudoku/UserController/proceedForm/" method="post">
+
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit" class="button">Login</button>
+        </form>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </br>
+        <span >Dont have an account <a href="#" id="signup">Register</a></span>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="id02" class="modal">
+
+  <form class="modal-content" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+    </div>
+    <div class="container">
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="submit" class="signupbtn button">Sign Up</button>
+      </div>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Already have an account <a href="#" id="signin">Sign in</a></span>
+    </div>
+  </form>
+</div>
   <!-- Footer -->
 
   <footer id="footer">
@@ -125,7 +164,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <!--JQuery-->
-  <script src="js/log.js"></script>
+  <script src="js/login.js"></script>
 </body>
 
 </html>
